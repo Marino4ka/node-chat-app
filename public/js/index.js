@@ -8,10 +8,6 @@ socket.on("connect", function() {
 	// 	text: "Hey. This is Anton"
 	// });
 
-	socket.emit("createMessage", {
-	to: "marina@ex.com",
-	text: "Fuck"
-	});
 });
 
 
